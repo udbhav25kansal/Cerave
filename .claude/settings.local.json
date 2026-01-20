@@ -3,7 +3,10 @@
     "allow": [
       "WebSearch",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nUpdate to correct HAIRCARE challenge - SCALP IS SKIN campaign\n\n- Updated CASE_BRIEF.md with correct haircare challenge requirements\n- Updated FINAL_PITCH.md with \"SCALP IS SKIN\" campaign strategy\n- Rebuilt presentation/index.html with 10-slide haircare pitch\n- Added PITCH_DECK.txt plain text version of the pitch\n\nCampaign now addresses CeraVe''s haircare/scalp care line targeting\n18-35 year olds with \"You care for your face. Now complete the routine.\"\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git merge:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
